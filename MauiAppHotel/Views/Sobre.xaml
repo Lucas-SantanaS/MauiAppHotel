@@ -1,0 +1,27 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+            <GradientStop Color="Grey" Offset="0.5" />
+            <GradientStop Color="Black" Offset="1.1" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Desenvolvido por: Lucas"
+               FontFamily="Kalam-Bold"
+               FontAttributes="Bold"
+               FontSize="30"
+               TextDecorations="Underline"
+               HorizontalOptions="Center" />
+
+        <Label Text="Maio de 2025"
+               FontSize="16"
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+
+</ContentPage>
